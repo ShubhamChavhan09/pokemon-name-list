@@ -41,6 +41,14 @@ function App() {
 
   return (
     <div>
+      <a
+        className="link"
+        href="https://github.com/ShubhamChavhan09/pokemon-name-list"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Github
+      </a>
       <PokemonList pokemon={pokemon} />
       <Pagination
         gotoNextPage={nextPageUrl ? gotoNextPage : null}
