@@ -38,6 +38,14 @@ body {
 .btn:active {
   transform: scale(0.96);
 }
+.link {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
 
 @media (max-width: 550px) {
   .container {
